@@ -1,0 +1,13 @@
+header {
+    background-color: #027b7b;
+    color: #ff8200;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffa500;
+}
