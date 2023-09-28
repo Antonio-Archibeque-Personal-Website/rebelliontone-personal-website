@@ -8,7 +8,56 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.headBox {
+    display: block;
+}
+
+.headContent {
+    justify-self: center;
+    align-self: center;
+}
+
 body {
     background-color: #ffa500;
     font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.footer {
+    display: flex;
+    background-color: #8b4b53;
+    margin: 4pt;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+}
+
+.footerItem {
+    background-color: #027b7b;
+    margin:3px;
+    padding: 3px;
+    z-index: 0;
+}
+
+a {
+    color:#ffa500;
+    font-style:italic;
+}
+
+a:hover {
+    color:#8b4b53;
+}
+
+h1 {
+    align-content: center !important;
+}
+
+@media (min-width: 1080px) {
+    
+}
+
+.contactForm {
+    width:0%
 }
